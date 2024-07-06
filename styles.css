@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 900px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-section, .output-section {
+    width: 45%;
+    margin: 20px 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.radio-buttons {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #667eea;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #764ba2;
+}
+
+.output-section img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.output-section p {
+    text-align: center;
+    margin: 5px 0;
+    color: #333;
+}
+
+.output-text {
+    font-weight: bold;
+    color: #764ba2;
+}

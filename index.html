@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptar y Desencriptar Texto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <h1>Ingrese el texto aquí</h1>
+            <textarea id="inputText" rows="10"></textarea>
+           <!-- <div class="radio-buttons">
+                <input type="radio" id="option1" name="option" value="encrypt" checked>
+                <label for="option1">Solo letras minúsculas y sin acentos</label> 
+            </div>-->
+            <div class="buttons">
+                <button onclick="encryptText()">Encriptar</button>
+                <button onclick="decryptText()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="output-section">
+           
+            <p class="output-text">Ningún mensaje fue encontrado</p>
+            <p>Ingresa el texto que deseas encriptar o desencriptar.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
